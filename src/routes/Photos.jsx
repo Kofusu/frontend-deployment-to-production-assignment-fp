@@ -8,7 +8,7 @@ const Photos = () => {
   const [submited, setSubmited] = useState("");
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [error] = useState(null);
 
   const url = "https://gallery-app-server.vercel.app/photos"
   const deletePhoto = (id) => {
